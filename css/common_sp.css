@@ -7,7 +7,8 @@ body {
   margin-bottom: 70px;
   list-style: none;
   /* background: linear-gradient(#fff, #FFCCFA); */
-  margin-right: 0;
+  margin-right: 0 !important;
+  /* margin-left: 0; */
 }
 
 
@@ -161,6 +162,7 @@ div.downlord {
   position: fixed;
   bottom: 0;
   z-index: 100;
+  /* width: 100%; */
 }
 
 div.downlord ul {
@@ -382,6 +384,15 @@ div.counter_block p ,div.schedule_block p {
   margin-top: 20px;
   line-height: 1.2em;
   text-align: justify;
+}
+
+@media screen and (max-width: 428px) {
+  /* スマホ限定ダウンロード下部表示 */
+div.counter_block img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
 }
 
 
