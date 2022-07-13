@@ -8,6 +8,10 @@
     list-style-type: none;
   }
 
+  body {
+    margin-bottom: 0 !important;
+  }
+
     heder h1 img.logo_pc {
       display: block;
       margin-left: 5% !important;
@@ -75,6 +79,7 @@ header div.top_img {
 
 header div.top_img p{
   left: 20%;
+  font-size: 2em;
 }
 
 div.downlord {
@@ -94,8 +99,16 @@ div.downlord ul li {
   width: 50%;
 }
 
+h2 {
+  font-size: 1.4em;
+}
+
 div.downlord ul li img {
   width: 100%;
+}
+
+section.intro img {
+  width: 20%;
 }
 
 section.saport img {
@@ -111,7 +124,8 @@ div.saport_block p {
   display: block;
   margin-left: -30%;
   margin-top: 100px;
-  line-height: 1.5em;
+  line-height: 1.8em;
+  font-size: 1.2em;
 }
 
 div.counter_block, div.schedule_block {
@@ -120,9 +134,10 @@ div.counter_block, div.schedule_block {
 }
 
 div.counter_block p, div.schedule_block p {
-  margin-top: 100px;
+  margin-top: 80px;
   width: 40%;
-  line-height: 1.5em;
+  line-height: 1.8em;
+  font-size: 1.2em;
 }
 
 footer ul {
