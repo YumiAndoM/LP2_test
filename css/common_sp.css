@@ -11,7 +11,7 @@ body {
 
 
 
-@media screen and (max-width: 428px) {/* スマホ限定のロゴ表示 */
+@media screen and (max-width: 769px) {/* スマホ限定のロゴ表示 */
 
 heder h1 img.logo_sp {
   display: block;
@@ -192,6 +192,7 @@ div.downlord ul li img {
 
 /* ここからメイン */
 
+
 /* セクション1 */
 
 section {
@@ -302,6 +303,11 @@ section {
 
 section.intro {
   position: relative;
+  padding-bottom: 0px;
+}
+
+section.intro img {
+  padding-bottom: -50px;
 }
 
 section.intro::before {

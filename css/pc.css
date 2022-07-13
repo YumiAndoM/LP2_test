@@ -2,7 +2,7 @@
 
 
 
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 768px) {
 
   * {
     list-style-type: none;
@@ -12,7 +12,7 @@
     margin-bottom: 0 !important;
   }
 
-    heder h1 img.logo_pc {
+    header h1 img.logo_pc {
       display: block;
       margin-left: 5% !important;
     }
@@ -54,7 +54,7 @@
     }
 
 
-header, main footer {
+header, main, footer {
   width: 100%;
 }
 
@@ -80,6 +80,7 @@ header div.top_img {
 header div.top_img p{
   left: 20%;
   font-size: 2em;
+  font-weight: 700;
 }
 
 div.downlord {
@@ -156,5 +157,41 @@ footer ul li a {
 
 
 
+
+}
+
+
+
+@media screen and (min-width: 430px) and (max-width:769px){
+
+
+
+
+
+        header div.top_img {
+          background-image: url(../img/top.png);
+          background-size: contain;
+          background-position: 50%;
+          height: 80vh;
+          width: 100%;
+          background-repeat: no-repeat;
+        }
+
+        header div.top_img p {
+          left: 15%;
+          font-size: 1.8em;
+          font-weight: 700;
+        }
+
+        div.saport_block p {
+          margin-top: -30px;
+        }
+        div.counter_block p {
+          margin-top: -30px;
+        }
+
+        div.schedule_block p {
+          margin-top: 50px
+        }
 
 }
