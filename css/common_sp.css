@@ -145,7 +145,7 @@ header div.top_img {
 header div.top_img p {
   top: 20vh;
   left: 5%;
-  z-index: 50;
+  z-index: 10;
   position: absolute;
   font-size: 1.4em;
   color: #f895ee;
@@ -188,7 +188,9 @@ div.downlord ul li img {
 } */
 
 
-
+html {
+  width: 100%;
+}
 
 /* ここからメイン */
 
@@ -197,10 +199,12 @@ div.downlord ul li img {
 
 section {
   padding-top: 70px;
+  width: 100%;
 }
 
 section:nth-child(even){
-  background-color: #FFCCFA;
+  background: #FFCCFA;
+  width: 100%;
 }
 
 h2 {
